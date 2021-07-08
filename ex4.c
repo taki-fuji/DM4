@@ -2,6 +2,13 @@
 
 int main(){
 int d1=5,d2=3;
+    
+    //名前をきくパート
+char name[10];
+printf("What is your name?");
+scanf("%s",name);
+printf("Hello, %s!\n",name);
+
 
     printf("Rolling the dice...\n");
     printf("Die 1:%d\n",d1);
