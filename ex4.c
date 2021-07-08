@@ -23,7 +23,7 @@ printf("Round %d : Tail\n,i+1");
 tails++;
 }
 }
-printf("Heads: 5d, Tails: %d\n",heads,tails);
+printf("Heads: ％d, Tails: %d\n",heads,tails);
 return 0;
 
 }
