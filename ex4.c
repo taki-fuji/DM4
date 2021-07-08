@@ -1,29 +1,13 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
 int main(){
-int i, num, heads=0, tails=0;
+int d1=5,d2=3;
 
- //名前を聞くパートの編集(mainから)
-  char str[8];
-  printf("あんた誰？ ");
-  scanf("%s",str);
-  printf("ハロー、 %s\n",str);
-  
-  //コイントスのパート
-printf("Tossing a coin...\n");
+    printf("Rolling the dice...\n");
+    printf("Die 1:%d\n",d1);
+    printf("Die 2:%d\n",d2);
+    printf("Total value: %d\n",d1+d2);    
 
-for(i=0;i<3;i++){
-num=rand();
-if(num%2==0){
-printf("Round %d: Head\n",i+1);
-heads++;
-}else{
-printf("Round %d : Tail\n",i+1);
-tails++;
-}
-}
-printf("Heads: %d, Tails: %d\n",heads,tails);
-return 0;
+    return 0;
 
 }
